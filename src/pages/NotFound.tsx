@@ -1,7 +1,3 @@
-import React from "react";
-
-const NotFound = () => {
-  return <div>404 Not Found</div>;
+export const NotFound = () => {
+  return <div> NotFound</div>;
 };
-
-export default NotFound;
