@@ -35,8 +35,6 @@ export const AboutSection = () => {
 
               <a
                 target="_blank"
-                About
-                M
                 href="Resume_SteveSaju.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
