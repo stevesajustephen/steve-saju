@@ -3,7 +3,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Apollo GraphQL Integration",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Order App",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
