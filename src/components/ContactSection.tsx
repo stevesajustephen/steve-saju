@@ -182,7 +182,7 @@ export const ContactSection = () => {
           </div>
         </div>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          P.S. This project is built with React, TypeScript, and TailwindCSS.
+          P.S. This portfolio is built with React, TypeScript, and TailwindCSS.
           You can view the latest source code at the GitHub Repo!
         </p>
       </div>
