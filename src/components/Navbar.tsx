@@ -3,9 +3,6 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navItems = [
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/steve-saju/" },
-  { name: "Github", href: "https://github.com/stevesajustephen" },
-  { name: "LeetCode", href: "https://leetcode.com/u/stevesajustephen/" },
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
