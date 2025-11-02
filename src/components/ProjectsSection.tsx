@@ -3,32 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Apollo GraphQL Integration",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Load Million Users efficiently",
+    description: "Virtuoso List Virtualization for improved performance React",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "List Virtualization", "Supabase"],
+    demoUrl: "",
+    githubUrl:
+      "https://github.com/stevesajustephen/list-virtualization-1million-users",
   },
   {
     id: 2,
     title: "Order App",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    description: "A basic Ecommerce",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Javascript", "CSS", "Node js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/stevesajustephen/order_app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+    title: "GraphQL Apollo Client Demo",
+    description: "Integration of GraphQL",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "Apollo.js", "GraphQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/stevesajustephen/readt-gql",
   },
 ];
 
