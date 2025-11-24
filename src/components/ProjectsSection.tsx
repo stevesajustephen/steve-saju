@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "AI Chat Bot",
+    description: "chat bot using React and ChatGPT API Integration",
+    image: "/projects/project2.avif",
+    tags: ["React", "TS", "CSS", "Node js"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/stevesajustephen/ai-chat-bot",
+  },
+  {
+    id: 2,
     title: "Load Million Users efficiently",
     description: "Virtuoso List Virtualization for improved performance React",
     image: "/projects/project1.png",
@@ -11,15 +20,7 @@ const projects = [
     githubUrl:
       "https://github.com/stevesajustephen/list-virtualization-1million-users",
   },
-  {
-    id: 2,
-    title: "AI Chat Bot",
-    description: "chat bot using React and ChatGPT API Integration",
-    image: "/projects/project2.png",
-    tags: ["React", "TS", "CSS", "Node js"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/stevesajustephen/ai-chat-bot",
-  },
+
   {
     id: 3,
     title: "GraphQL Apollo Client Demo",
