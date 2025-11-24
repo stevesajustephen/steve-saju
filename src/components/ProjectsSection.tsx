@@ -13,12 +13,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Order App",
-    description: "A basic Ecommerce",
+    title: "AI Chat Bot",
+    description: "chat bot using React and ChatGPT API Integration",
     image: "/projects/project2.png",
-    tags: ["Javascript", "CSS", "Node js"],
+    tags: ["React", "TS", "CSS", "Node js"],
     demoUrl: "#",
-    githubUrl: "https://github.com/stevesajustephen/order_app",
+    githubUrl: "https://github.com/stevesajustephen/ai-chat-bot",
   },
   {
     id: 3,
