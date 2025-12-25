@@ -34,6 +34,7 @@ const skills = [
   { name: "Docker", level: 80, category: "cloud & devops" },
   { name: "Azure", level: 75, category: "cloud & devops" },
   { name: "AWS Lambda", level: 70, category: "cloud & devops" },
+  { name: "AWS Iot Core", level: 90, category: "cloud & devops" },
   { name: "AWS S3", level: 70, category: "cloud & devops" },
   { name: "AWS DynamoDB", level: 70, category: "cloud & devops" },
 ];
