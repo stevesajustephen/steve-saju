@@ -33,11 +33,11 @@ const skills = [
   { name: "Git/GitHub", level: 80, category: "cloud & devops" },
   { name: "Docker", level: 80, category: "cloud & devops" },
   { name: "AWS CDK", level: 85, category: "cloud & devops" },
-  { name: "AWS DynamoDB", level: 70, category: "cloud & devops" },
-  { name: "AWS Lambda", level: 70, category: "cloud & devops" },
+  { name: "AWS DynamoDB", level: 90, category: "cloud & devops" },
+  { name: "AWS Lambda", level: 90, category: "cloud & devops" },
   { name: "AWS Iot Core", level: 90, category: "cloud & devops" },
-  { name: "AWS S3", level: 70, category: "cloud & devops" },
-  { name: "Azure", level: 75, category: "cloud & devops" },
+  { name: "AWS S3", level: 95, category: "cloud & devops" },
+  { name: "Azure", level: 80, category: "cloud & devops" },
 ];
 
 const categories = ["all", "backend", "frontend", "cloud & devops", "Other"];
