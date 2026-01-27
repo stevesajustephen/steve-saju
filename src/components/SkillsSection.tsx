@@ -32,11 +32,12 @@ const skills = [
   // Cloud
   { name: "Git/GitHub", level: 80, category: "cloud & devops" },
   { name: "Docker", level: 80, category: "cloud & devops" },
-  { name: "Azure", level: 75, category: "cloud & devops" },
+  { name: "AWS CDK", level: 85, category: "cloud & devops" },
+  { name: "AWS DynamoDB", level: 70, category: "cloud & devops" },
   { name: "AWS Lambda", level: 70, category: "cloud & devops" },
   { name: "AWS Iot Core", level: 90, category: "cloud & devops" },
   { name: "AWS S3", level: 70, category: "cloud & devops" },
-  { name: "AWS DynamoDB", level: 70, category: "cloud & devops" },
+  { name: "Azure", level: 75, category: "cloud & devops" },
 ];
 
 const categories = ["all", "backend", "frontend", "cloud & devops", "Other"];
@@ -45,7 +46,7 @@ export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => activeCategory === "all" || skill.category === activeCategory,
   );
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
@@ -63,7 +64,7 @@ export const SkillsSection = () => {
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-forefround hover:bd-secondary"
+                  : "bg-secondary/70 text-forefround hover:bd-secondary",
               )}
             >
               {category}
