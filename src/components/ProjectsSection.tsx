@@ -12,13 +12,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Load Million Users efficiently",
-    description: "Virtuoso List Virtualization for improved performance React",
-    image: "/projects/project1.png",
+    title: "ESG Report Pipeline",
+    description:
+      "An ESG Report Pipeline with BullMQ Worker Queue and Flowproducer to Orchestrate background jobs. Medallion Architecture to clean the raw data in 3 layers",
+    image: "/projects/esg.webp",
     tags: ["React", "List Virtualization", "Supabase"],
     demoUrl: "",
-    githubUrl:
-      "https://github.com/stevesajustephen/list-virtualization-1million-users",
+    githubUrl: "https://github.com/stevesajustephen/BullMQ-Pipeline-Report",
   },
 
   {
