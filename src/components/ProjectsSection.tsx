@@ -30,7 +30,8 @@ const projects = [
   {
     id: 3,
     title: "Climate Ledger",
-    description: "Carbon Accounting. Product Carbon Lifecycle Tracker",
+    description:
+      "Carbon Accounting. Product Carbon Lifecycle Tracker. Allowing retailers to capture the carbon footprint of products they sell and make it publicaly available through simple QRCODE Scan",
     image: "/projects/climate-ledger.webp",
     tags: [
       "React",
