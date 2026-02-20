@@ -29,12 +29,19 @@ const projects = [
 
   {
     id: 3,
-    title: "GraphQL Apollo Client Demo",
-    description: "Integration of GraphQL",
-    image: "/projects/project3.png",
-    tags: ["React", "Apollo.js", "GraphQL"],
+    title: "Climate Ledger",
+    description: "Carbon Accounting. Product Carbon Lifecycle Tracker",
+    image: "/projects/climate-ledger.webp",
+    tags: [
+      "React",
+      "NestJs",
+      "Serverless",
+      "CDK",
+      "DynamoDB",
+      "Hexagonal Architecture",
+    ],
     demoUrl: "#",
-    githubUrl: "https://github.com/stevesajustephen/readt-gql",
+    githubUrl: "https://github.com/stevesajustephen/climate-ledger",
   },
 ];
 
