@@ -3,22 +3,28 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "ESG Report Pipeline",
+    description:
+      "An ESG Report Pipeline with BullMQ Worker Queue and Flowproducer to Orchestrate background jobs. Medallion Architecture to clean the raw data in 3 layers",
+    image: "/projects/esg.webp",
+    tags: [
+      "BullMQ",
+      "Workflow Orchestration",
+      "Medallion Architecture",
+      "VSME",
+      "ESG Reporting",
+    ],
+    demoUrl: "",
+    githubUrl: "https://github.com/stevesajustephen/BullMQ-Pipeline-Report",
+  },
+  {
+    id: 2,
     title: "AI Chat Bot",
     description: "chat bot using React and ChatGPT API Integration",
     image: "/projects/project2.avif",
     tags: ["React", "TS", "CSS", "Node js"],
     demoUrl: "#",
     githubUrl: "https://github.com/stevesajustephen/ai-chat-bot",
-  },
-  {
-    id: 2,
-    title: "ESG Report Pipeline",
-    description:
-      "An ESG Report Pipeline with BullMQ Worker Queue and Flowproducer to Orchestrate background jobs. Medallion Architecture to clean the raw data in 3 layers",
-    image: "/projects/esg.webp",
-    tags: ["React", "List Virtualization", "Supabase"],
-    demoUrl: "",
-    githubUrl: "https://github.com/stevesajustephen/BullMQ-Pipeline-Report",
   },
 
   {
